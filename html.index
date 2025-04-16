@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Car Buyer Helper</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Hero Section -->
+  <section class="bg-blue-600 text-white py-16 px-4 text-center">
+    <h1 class="text-4xl font-bold mb-4">Find the Right Car for Your Life — Without the Headache</h1>
+    <p class="mb-6 text-lg">Smart tips, honest guides, and tools to make your car buying simple.</p>
+    <a href="#guide" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100">Start with Our Guide</a>
+  </section>
+
+  <!-- Quick Options -->
+  <section class="py-12 px-4 max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+    <div class="bg-white p-6 rounded-xl shadow hover:shadow-md">
+      <h2 class="text-xl font-bold mb-2">New vs. Used</h2>
+      <p class="mb-4">See what fits your budget and needs best.</p>
+      <a href="#" class="text-blue-600 font-medium">Learn More →</a>
+    </div>
+    <div class="bg-white p-6 rounded-xl shadow hover:shadow-md">
+      <h2 class="text-xl font-bold mb-2">Budget-Based Search</h2>
+      <p class="mb-4">Find cars under a price that works for you.</p>
+      <a href="#" class="text-blue-600 font-medium">Explore Cars →</a>
+    </div>
+    <div class="bg-white p-6 rounded-xl shadow hover:shadow-md">
+      <h2 class="text-xl font-bold mb-2">Top Picks by Category</h2>
+      <p class="mb-4">Fuel-efficient, reliable, family-friendly & more.</p>
+      <a href="#" class="text-blue-600 font-medium">View Categories →</a>
+    </div>
+  </section>
+
+  <!-- Articles Section -->
+  <section id="guide" class="py-12 px-4 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-bold text-center mb-8">Helpful Guides</h2>
+    <div class="space-y-6">
+      <article class="bg-white p-6 rounded-xl shadow">
+        <h3 class="text-xl font-semibold mb-2">5 Mistakes First-Time Buyers Make</h3>
+        <p class="text-gray-600 mb-3">Avoid these common traps and save money and stress.</p>
+        <a href="#" class="text-blue-600 font-medium">Read More →</a>
+      </article>
+      <article class="bg-white p-6 rounded-xl shadow">
+        <h3 class="text-xl font-semibold mb-2">Lease vs. Finance: What’s Right for You?</h3>
+        <p class="text-gray-600 mb-3">Understand the pros and cons before signing anything.</p>
+        <a href="#" class="text-blue-600 font-medium">Read More →</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 text-center py-6 mt-12 text-sm text-gray-600">
+    <p>&copy; 2025 Car Buyer Helper. All rights reserved.</p>
+    <p>Created with love by Nam Sangjun</p>
+  </footer>
+</body>
+</html>
